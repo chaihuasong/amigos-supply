@@ -146,7 +146,7 @@ npx http-server
 
 - 📞 电话：0574-87059858 / 18649665263
 - 📧 邮箱：jonson@amigos-supply.com
-- 📍 地址：宁波市鄞州区姚隘路796号东城国际1411室
+- 📍 地址：宁波市鄞州区姚隘路796号东城国际1111室
 - 🌐 网站：[amigos-supply.com](http://amigos-supply.com)
 
 ## 浏览器支持

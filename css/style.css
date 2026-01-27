@@ -333,6 +333,21 @@ img {
 }
 
 /* ========================================
+   Page Banner
+   ======================================== */
+.page-banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.page-banner img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    max-height: 280px;
+}
+
+/* ========================================
    Services Section
    ======================================== */
 .services {
@@ -460,6 +475,15 @@ img {
     background-color: var(--bg-gray);
 }
 
+.partners-intro {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 30px;
+    font-size: 15px;
+    color: var(--text-light);
+    line-height: 1.8;
+}
+
 .partners-swiper {
     padding: 20px 0;
 }
@@ -567,6 +591,52 @@ img {
 }
 
 /* ========================================
+   Culture Section
+   ======================================== */
+.culture {
+    padding: 60px 0;
+    background-color: var(--bg-gray);
+}
+
+.culture-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.culture-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.culture-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.culture-card i {
+    font-size: 40px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.culture-card h3 {
+    font-size: 20px;
+    color: var(--text-dark);
+    margin-bottom: 15px;
+}
+
+.culture-card p {
+    font-size: 14px;
+    color: var(--text-light);
+    line-height: 1.8;
+}
+
+/* ========================================
    Join Section
    ======================================== */
 .join {
@@ -588,6 +658,19 @@ img {
     font-size: 16px;
     opacity: 0.9;
     margin-bottom: 25px;
+}
+
+.join-photo {
+    margin: 25px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.join-photo img {
+    width: 100%;
+    display: block;
 }
 
 /* ========================================
@@ -1011,6 +1094,10 @@ img {
     }
 
     .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .culture-cards {
         grid-template-columns: 1fr;
     }
 
